@@ -6,8 +6,8 @@
                 <div class="container  ">
                     <div class="columns ">
                         <div class="column is-6 has-text-centered" id="home-title">
-                            <h1 class="title is-size-1">Hi! <span style='font-size:50px;'>&#128075;</span></h1>
-                            <h1 class="title is-size-2"> My name is Amos Cheruiyot</h1>
+                            <h1 class="title is-size-1">Hi, <span style='font-size:50px;'>&#128075;</span></h1>
+                            <h1 class="title is-size-2"> I`m Amos Cheruiyot!</h1>
                             <br>
                             <h3 class="subtitle is-family-code">I build things and love tech.</h3>
                         </div>
@@ -47,11 +47,11 @@
                 </div>
             </div>
            <div class="hero-foot" >
-                <span class="icon" id="mail-icon">
+                    <span class="icon" id="mail-icon">
                         <router-link to="/contacts">
                             <i class="far fa-envelope fa-2x"></i>
                         </router-link>
-            </span>
+                    </span>
                 <h3 id="copyright" class="has-text-centered"><i>Copyright &copy; 2021</i></h3>
                 </div> 
         </section>
