@@ -1,6 +1,7 @@
 <template>
     <div id="home">
         <section class="hero is-fullheight-with-navbar is-primary is-bold">
+            <div class="hero-head"></div>
             <div class="hero-body">
                 <div class="container">
                     <div class="columns">
@@ -18,6 +19,14 @@
                     </div>
                 </div>
             </div>
+            <span class="icon" shadow id="mail-icon">
+                        <router-link to="/contacts">
+                            <i class="far fa-envelope fa-2x"></i>
+                        </router-link>
+            </span>
+           <div class="hero-foot" >
+                <h3 id="copyright" class="has-text-centered"><i>Copyright &copy; 2021</i></h3>
+                </div> 
         </section>
     </div>
 </template>
@@ -36,5 +45,20 @@ export default {
 #home-title {
 padding-top: 3%;
 margin-left: 10%;
+}
+#copyright {
+    padding-bottom: 30px;
+}
+#home-btn {
+    padding-top: 100px;
+}
+#mail-icon {
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+}
+i {
+    text-decoration: none;
+    color: white;
 }
 </style>
