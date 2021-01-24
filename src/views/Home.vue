@@ -52,6 +52,7 @@
                             <i class="far fa-envelope fa-2x"></i>
                         </router-link>
                     </span>
+
                 <h3 id="copyright" class="has-text-centered"><i>Copyright &copy; 2021</i></h3>
                 </div> 
         </section>
@@ -64,7 +65,7 @@ export default {
 }
 </script>
 
-<style >
+<style scoped >
 #home-img {
     height: 300px;
     width: 300px;

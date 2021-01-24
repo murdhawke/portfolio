@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style >
+<style  >
 #nav-items a {
     padding-left: 5rem;
 }
