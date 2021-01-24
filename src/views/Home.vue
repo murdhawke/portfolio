@@ -17,6 +17,33 @@
                             </figure>
                         </div>
                     </div>
+                    <div class="socials container">
+                        <div class="columns has-text-centered">
+                            <div class="column is-8">
+                                <span class="icon is-large">
+                                    <a href="https://www.linkedin.com/in/murdhawke/" target="_blank">
+                                        <i class="fab fa-linkedin-in fa-lg"></i>
+                                    </a>
+                                </span>
+                                <span class="icon is-large">
+                                    <a href="https://github.com/murdhawke" target="_blank">
+                                        <i class="fab fa-github fa-lg"></i>
+                                    </a>
+                                </span>
+                                <span class="icon is-large">
+                                    <a href="https://codepen.io/murdhawke" target="_blank">
+                                        <i class="fab fa-codepen fa-lg"></i>
+                                    </a>
+                                </span>
+                                <span class="icon is-large">
+                                    <a href="https://stackoverflow.com/users/5805468/amos-cheruiyot" target="_blank">
+                                        <i class="fab fa-stack-overflow fa-lg"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="column is-4"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
            <div class="hero-foot" >
@@ -61,5 +88,9 @@ margin-left: 10%;
 i {
     text-decoration: none;
     color: white;
+}
+.socials {
+    padding: 0;
+
 }
 </style>
