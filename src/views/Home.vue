@@ -2,9 +2,9 @@
     <div id="home">
         <section class="hero is-fullheight-with-navbar is-primary is-bold">
             <div class="hero-head"></div>
-            <div class="hero-body">
-                <div class="container">
-                    <div class="columns">
+            <div class="hero-body ">
+                <div class="container  ">
+                    <div class="columns ">
                         <div class="column is-6 has-text-centered" id="home-title">
                             <h1 class="title is-size-1">Hi! <span style='font-size:50px;'>&#128075;</span></h1>
                             <h1 class="title is-size-2"> My name is Amos Cheruiyot</h1>
@@ -19,12 +19,12 @@
                     </div>
                 </div>
             </div>
-            <span class="icon" shadow id="mail-icon">
+           <div class="hero-foot" >
+                <span class="icon" id="mail-icon">
                         <router-link to="/contacts">
                             <i class="far fa-envelope fa-2x"></i>
                         </router-link>
             </span>
-           <div class="hero-foot" >
                 <h3 id="copyright" class="has-text-centered"><i>Copyright &copy; 2021</i></h3>
                 </div> 
         </section>
@@ -41,21 +41,22 @@ export default {
 #home-img {
     height: 300px;
     width: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 #home-title {
 padding-top: 3%;
 margin-left: 10%;
 }
 #copyright {
-    padding-bottom: 30px;
-}
-#home-btn {
-    padding-top: 100px;
+    padding-bottom: 20px;
 }
 #mail-icon {
-    position: absolute;
-    left: 2%;
-    bottom: 2%;
+    margin-right: auto;
+    margin-left: 50px;
+    margin-bottom: 1;
+    float: left;
 }
 i {
     text-decoration: none;
