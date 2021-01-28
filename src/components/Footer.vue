@@ -1,5 +1,5 @@
 <template>
-    <div id="footer">
+    <div id="ffooter">
         <div class="columns is-mobile">
             <div class="column">
                 <ul>
@@ -39,7 +39,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .columns {
     background-color: white;
     height: 200px;

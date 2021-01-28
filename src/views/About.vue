@@ -80,7 +80,7 @@ export default {
 
 <style scoped >
 .title {
-    padding:50px;
+    padding-top:50px;
 }
 
 .box {
@@ -88,6 +88,6 @@ export default {
     margin-left: 20%;
 }
 .hero-body {
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 </style>
